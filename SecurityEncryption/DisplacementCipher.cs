@@ -9,6 +9,15 @@ namespace SecurityEncryption
     /// </summary>
     public static class DisplacementCipher
     {
+        /*
+         * By Veysel MUTLU -> github.com/vmutlu
+         * veysel_mutlu42@hotmail.com
+         * 
+         * Sample Usage
+         * var encrypt = DisplacementCipher.Encryption("Şifrelecek Metin");
+         * var dencrypt = DisplacementCipher.Descryption(encrypt);
+         */
+
         #region Fields
 
         private static Dictionary<char, char> _dictionaryWord;

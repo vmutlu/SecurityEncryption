@@ -1,4 +1,6 @@
-﻿namespace SecurityEncryption
+﻿using System;
+
+namespace SecurityEncryption
 {
     /// <summary>
     /// This class contains methods for encrypting text using the caesar encryption algorithm and decrypting the encrypted text.
@@ -16,9 +18,9 @@
 
         #region Fields
 
-        public const int _encryptionKey = 3;
-        public static string _textEncryptionOutput = string.Empty;
-        public static string _textDescryptionOutput = string.Empty;
+        private const int _encryptionKey = 3;
+        private static string _textEncryptionOutput = string.Empty;
+        private static string _textDescryptionOutput = string.Empty;
 
         #endregion
 
@@ -31,6 +33,9 @@
         /// <returns></returns>
         public static string Encryption(string encrypting)
         {
+            if (string.IsNullOrEmpty(encrypting) || encrypting == null)
+                throw new NullReferenceException("Text to encrypt cannot be null or null");
+
             foreach (var allCharacter in encrypting)
                 _textEncryptionOutput += (char)((allCharacter + _encryptionKey) % 127);
 
@@ -49,6 +54,9 @@
         /// <returns></returns>
         public static string Descryption(string decryption)
         {
+            if (string.IsNullOrEmpty(decryption) || decryption == null)
+                throw new NullReferenceException("Text to be decrypted cannot be empty or null");
+
             foreach (var allCharacter in decryption)
                 _textDescryptionOutput += (char)((allCharacter - _encryptionKey) % 127);
 
