@@ -13,10 +13,12 @@ namespace SecurityEncryption
         * veysel_mutlu42@hotmail.com
         * 
         * Sample Usage
-        *   StringBuilder s = new StringBuilder("Hello");
-            const string key = "merhaba";
-            VigenereCipherr.Encryption(ref s, key); // belirlenen anahtara göre metni şifreler
-            VigenereCipherr.Descryption(ref s, key); // şifrelenmiş metni çözer
+        *   StringBuilder stringBuilder = new StringBuilder("Text to Encrypt");
+            const string key = "keyword";
+            VigenereCipherr.Encryption(ref stringBuilder, key); // encrypts text
+            Console.WriteLine(stringBuilder);
+            VigenereCipherr.Descryption(ref stringBuilder, key); // decrypts encrypted text
+            Console.WriteLine(stringBuilder);
         */
 
         #region Caesar Encryption Methods

@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>SecurityEncryption</id>
-		<version>1.0.2</version>
+		<version>1.0.4</version>
 		<title>Security Encryption Algorithm</title>
 		<authors>Veysel MUTLU</authors>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -10,9 +10,9 @@
 		<projectUrl>https://github.com/vmutlu/SecurityEncryption</projectUrl>
 		<iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
 		<description>Caesar encryption algorithm written by Veysel MUTLU</description>
-		<releaseNotes>It is a package containing the methods of text encryption and decoding the encrypted text with the Caesar encryption algorithm.</releaseNotes>
+		<releaseNotes>Vigenere algorithm updated</releaseNotes>
 		<copyright>Copyright 2020</copyright>
-		<tags>Security Encryption Descryption Ceasar Algorithm Displacement Zigzag</tags>
+		<tags>Security Encryption Descryption Ceasar Algorithm Displacement Zigzag Vigenere</tags>
 	</metadata>
 	<files>
 		<file src="bin\Release\netcoreapp3.1\SecurityEncryption.dll" target="lib\netcoreapp3.1\SecurityEncryption.dll" />
