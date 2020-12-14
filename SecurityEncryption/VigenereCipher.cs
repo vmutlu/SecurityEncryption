@@ -6,7 +6,7 @@ namespace SecurityEncryption
     /// <summary>
     /// This class performs text encryption and decryption using the vigenere algorithm.
     /// </summary>
-    public static class VigenereCipherr
+    public static class VigenereCipher
     {
         /*
         * By Veysel MUTLU -> github.com/vmutlu
