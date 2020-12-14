@@ -19,6 +19,8 @@ Example Usage
  Vigenere Cipher
  * StringBuilder stringBuilder = new StringBuilder("Text to Encrypt");
  * const string key = "keyword";
- * var encrypt = VigenereCipherr.Encryption(ref stringBuilder, key); // encrypts text
- * var solve = VigenereCipherr.Descryption(ref stringBuilder, key); // decrypts encrypted text
+ * VigenereCipherr.Encryption(ref stringBuilder, key); // encrypts text
+ * Console.WriteLine(stringBuilder);
+ * VigenereCipherr.Descryption(ref stringBuilder, key); // decrypts encrypted text
+ * Console.WriteLine(stringBuilder);
 
