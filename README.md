@@ -15,4 +15,10 @@ Example Usage
  * ZigzagCipher zigzag = new ZigzagCipher("Text to Encrypt",key) -> The value of key will determine the number of rows in the matrix.
  * var encrypt = zigzag.Encryption();                       -> encrypts text
  * var solve =   zigzag.Descryption();                      -> decrypts encrypted text
+ 
+ Vigenere Cipher
+ * StringBuilder stringBuilder = new StringBuilder("Text to Encrypt");
+ * const string key = "keyword";
+ * var encrypt = VigenereCipherr.Encryption(ref stringBuilder, key); // encrypts text
+ * var solve = VigenereCipherr.Descryption(ref stringBuilder, key); // decrypts encrypted text
 
