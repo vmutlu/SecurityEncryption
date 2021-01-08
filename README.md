@@ -23,4 +23,8 @@ Example Usage
  * Console.WriteLine(stringBuilder);
  * VigenereCipherr.Descryption(ref stringBuilder, key); // decrypts encrypted text
  * Console.WriteLine(stringBuilder);
+ 
+ Aes Cipher
+ * var encrypt = AesCipher.AESEncrypt("Text to Encrypt");  -> encrypts text
+ * var dencrypt = AesCipher.AESDecrypt(encrypt);           -> decrypts encrypted text
 
