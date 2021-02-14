@@ -28,3 +28,6 @@ Example Usage
  * var encrypt = AesCipher.AESEncrypt("Text to Encrypt");  -> encrypts text
  * var dencrypt = AesCipher.AESDecrypt(encrypt);           -> decrypts encrypted text
 
+ Des Cipher
+ * var encrypt = DesCipher.Encryption("Şifrelecek Metin"); -> encrypts text
+ * var dencrypt = DesCipher.Descryption(encrypt);          -> decrypts encrypted text
