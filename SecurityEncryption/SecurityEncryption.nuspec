@@ -2,17 +2,19 @@
 <package >
 	<metadata>
 		<id>SecurityEncryption</id>
-		<version>1.0.5</version>
+		<version>1.0.6</version>
 		<title>Security Encryption Algorithm</title>
 		<authors>Veysel MUTLU</authors>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="expression">MIT</license>
 		<projectUrl>https://github.com/vmutlu/SecurityEncryption</projectUrl>
 		<iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
-		<description>AES encryption algorithm written by Veysel MUTLU</description>
-		<releaseNotes>AES algorithm created</releaseNotes>
+		<description>DES encryption algorithm written by Veysel MUTLU 
+		 Author Web Site: www.mutluveysel.online
+		</description>
+		<releaseNotes>DES algorithm created</releaseNotes>
 		<copyright>Copyright 2021</copyright>
-		<tags>Security Encryption Descryption AES Ceaser Algorithm Displacement Zigzag Vigenere</tags>
+		<tags>Security Encryption Descryption AES DES Ceaser Algorithm Displacement Zigzag Vigenere</tags>
 	</metadata>
 	<files>
 		<file src="bin\Release\netcoreapp3.1\SecurityEncryption.dll" target="lib\netcoreapp3.1\SecurityEncryption.dll" />
